@@ -5,9 +5,9 @@ body{
 }
 .banner{
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-.container{
+#container{
     width: 80%;
     height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@ body{
 }
 h1{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     color: #323232;
 }
 .banner-para{
@@ -99,3 +99,37 @@ h1{
     border-bottom: 1px solid #ebeaea;
 }
 /* donate today end */
+
+/* our donate plan start */
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.plan-card{
+    text-align: left;
+    padding: 50px 25px;
+    border-radius: 5px;
+    margin: 0px 12px;
+}
+.card1{
+    background-color: #e3fcf9;
+}
+.card2{
+    background-color: #fbedeb;
+}
+.card3{
+    background-color: #fbf8ea;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px 0px;
+    color: #323232;
+}
+.plan-para{
+    font-size: 15px;
+    color: #7d7d7d;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* our donate plan end */
