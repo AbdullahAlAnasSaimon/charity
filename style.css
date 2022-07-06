@@ -133,3 +133,20 @@ h3{
     font-family: 'Titillium Web', sans-serif;
 }
 /* our donate plan end */
+
+/* footer start */
+footer{
+    text-align: center;
+    background-color: #323232;
+    padding: 25px 0px;
+}
+h2{
+    color:#f36d55;
+    font-size: 30px;
+}
+.foot-para{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* footer end */
