@@ -135,18 +135,21 @@ h3{
 }
 /* our donate plan end */
 
-/* volunteer start */
-.volunteer-bg{
-    background-color: #fff3f1;
+/* our latest events start */
+.event-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
-.v-para{
-    color:#5c5b5b;
+.list-items{
+    width: 24%;
+    border-radius: 5px;
 }
-/* volunteer end */
+/* our latest events end */
 
 /* get updates start */
 .daily-update{
-    background-color: #f5f4d2;
+    background-color: #fcfce8;
     width: 80%;
     padding: 84px 0px;
     margin: 0 auto;
