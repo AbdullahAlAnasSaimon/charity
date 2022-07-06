@@ -16,16 +16,16 @@ body{
     margin: 0 auto;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
-    color: #fff;
+    color: #323232;
 }
 .banner-para{
     color: #fff;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
-    margin-bottom: 60px;
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 /* top-banner start */
 .top-bg{
@@ -57,3 +57,32 @@ h1{
     background-color: #f59688;
     transition: 0.5s;
 }
+/* top banner end */
+
+/* donate today start */
+.para-color{
+    color:#323232;
+    padding: 0px 170px;
+}
+.donate-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.donate-list a{
+    display: block;
+    padding: 35px 20px;
+    background-color: #eae9e9;
+    font-size: 35px;
+    color: #5c5b5b;
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+.donate-list a.active-list{
+    background-color: #f7eeec;
+    border: 3px solid #ff6347;
+}
+/* donate today end */
