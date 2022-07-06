@@ -144,6 +144,40 @@ h3{
 }
 /* volunteer end */
 
+/* get updates start */
+.daily-update{
+    background-color: #f5f4d2;
+    width: 80%;
+    padding: 84px 0px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+input[type=email]{
+    padding: 12px 0px;
+    padding-left: 15px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: #6a6a6a;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #e1e1e1;
+}
+.btn{
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #f36d55;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #f59688;
+    transition: 0.5s;
+}
+/* get updates end */
+
 /* footer start */
 footer{
     text-align: center;
