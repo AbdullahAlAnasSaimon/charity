@@ -130,9 +130,19 @@ h3{
 .plan-para{
     font-size: 15px;
     color: #7d7d7d;
+    margin-bottom: 30px;
     font-family: 'Titillium Web', sans-serif;
 }
 /* our donate plan end */
+
+/* volunteer start */
+.volunteer-bg{
+    background-color: #fff3f1;
+}
+.v-para{
+    color:#5c5b5b;
+}
+/* volunteer end */
 
 /* footer start */
 footer{
