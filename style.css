@@ -47,7 +47,7 @@ h1{
     color: #fff;
     background-color: #f36d55;
     padding: 12px 25px;
-    border-radius: 15px;
+    border-radius: 5px;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
@@ -61,7 +61,7 @@ h1{
 
 /* donate today start */
 .para-color{
-    color:#323232;
+    color:#7d7d7d;
     padding: 0px 170px;
 }
 .donate-list{
@@ -84,5 +84,18 @@ h1{
 .donate-list a.active-list{
     background-color: #f7eeec;
     border: 3px solid #ff6347;
+}
+.donate-input{
+    margin-top: 50px;
+}
+.donate-input input{
+    text-align: center;
+    width: 100%;
+    color: #9d9d9d;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #ebeaea;
 }
 /* donate today end */
